@@ -8,13 +8,16 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "playroom:start": "playroom start",
+    "playroom:build": "playroom build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +33,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.14.1",
+    "playroom": "^0.17.3",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1"
   }
 }
