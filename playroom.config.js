@@ -17,44 +17,6 @@ module.exports = {
   `,
   baseUrl: "/playroom/",
   webpackConfig: () => ({
-    module: {
-      rules: [
-        {
-          test: /\.css$/,
-          exclude: /node_modules/,
-          use: [
-            {
-              loader: "style-loader",
-            },
-            {
-              loader: "css-loader",
-              options: {
-                modules: true,
-                localIdentName: "[name]__[local]--[hash:base64:5]",
-              },
-            },
-          ],
-        },
-        {
-          test: /\.scss$/,
-          exclude: /node_modules/,
-          use: [
-            {
-              loader: "style-loader",
-            },
-            {
-              loader: "css-loader",
-              options: {
-                modules: true,
-                localIdentName: "[name]__[local]--[hash:base64:5]",
-              },
-            },
-            {
-              loader: "sass-loader",
-            },
-          ],
-        },
-      ],
-    },
+
   }),
 };
