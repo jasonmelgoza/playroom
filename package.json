@@ -43,7 +43,7 @@
     "@storybook/preset-create-react-app": "^2.1.2",
     "@storybook/react": "^5.3.18",
     "css-loader": "^3.5.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "playroom": "^0.17.3",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1"
